@@ -74,6 +74,13 @@ input, select, textarea {
 
 /* Basic */
 
+	.skills-header {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-bottom: 1em;
+  	text-align: center;
+	}
+
 	html {
 		box-sizing: border-box;
 	}
