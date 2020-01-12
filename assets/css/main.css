@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #666;
+		color: #fff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: #ecd10a;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2038,7 +2038,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: rgba(144, 144, 144, 0.5);
+			background: #fff;
 			content: '';
 			display: inline-block;
 			height: 1px;
@@ -2684,6 +2684,10 @@ input, select, textarea {
 
 /* Button */
 
+	.resume-button {
+		margin: 0 0 1em 0;
+	}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -2819,7 +2823,7 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+			background: rgba(32, 30, 30);
 		}
 
 		.main.style2 {
@@ -2839,7 +2843,7 @@ input, select, textarea {
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #ffffff;
+				color: #ecd10a;
 			}
 
 			.main.style2 header p {
@@ -3076,7 +3080,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+			background-image: linear-gradient(45deg, rgba(32, 32, 32, 0.7), rgba(32, 32, 32, 0.7));
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3317,7 +3321,7 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-				padding: 5em 3em 3em 3em ;
+				padding: 3em 3em 2em 3em ;
 			}
 
 		/* Header */
@@ -3349,6 +3353,10 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
+
+		.last-contact-link {
+			margin: 0 0 1em 0;
+		}
 
 		/* Basic */
 
@@ -3433,13 +3441,22 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		.last-contact-link {
+			margin: 0 0 1em 0;
+		}
+
 		/* Button */
 
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
 			.button {
-				padding: 0;
+				padding: 0 1em;
+  			/* margin: 0 0 2em 0; */
+			}
+
+			.resume-button {
+				padding: 0 1em;
 			}
 
 		/* Main */
@@ -3484,6 +3501,10 @@ input, select, textarea {
 /* XXSmall */
 
 	@media screen and (max-width: 320px) {
+
+		.last-contact-link {
+			margin: 0 0 1em 0;
+		}
 
 		/* Basic */
 
