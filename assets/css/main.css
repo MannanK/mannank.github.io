@@ -81,6 +81,19 @@ input, select, textarea {
   	text-align: center;
 	}
 
+	.skills-image {
+		transform: rotate(-45deg);
+		border-radius: 4px;
+		display: inline-block;
+		line-height: 8em;
+		margin: 0;
+		text-align: center;
+		vertical-align: middle;
+		width: 8em;
+		object-fit: contain;
+		padding-bottom: 0.5em;
+	}
+
 	html {
 		box-sizing: border-box;
 	}
@@ -247,6 +260,10 @@ input, select, textarea {
 	}
 
 /* Container */
+
+	.skills.container {
+		width: 80em;
+	}
 
 	.container {
 		margin: 0 auto;
@@ -2357,6 +2374,11 @@ input, select, textarea {
 				line-height: 1em;
 			}
 
+			.skills.container .icon.major:before {
+				font-family: 'devicon';
+				font-size: 5em;
+			}
+
 /* Image */
 
 	.image {
@@ -2596,6 +2618,7 @@ input, select, textarea {
 			display: inline-block;
 			padding: 2.5em;
 			text-align: center;
+			vertical-align: bottom;
 		}
 
 			ul.major-icons li .icon {
@@ -2916,10 +2939,10 @@ input, select, textarea {
 			.main.style2 ul.major-icons li .icon {
 				border-color: #ffffff;
 			}
-
+			/* 
 			.main.style2 .icon.major {
 				color: #ffffff;
-			}
+			} */
 
 /* Header */
 
@@ -3325,6 +3348,15 @@ input, select, textarea {
 					width: 7em;
 				}
 
+				.skills.container ul.major-icons li .icon.major:before {
+					font-size: 70px;
+				}
+
+				.skills-image {
+					width: 115px;
+					padding-left: 0.3em;
+				}
+
 		/* Main */
 
 			.main {
@@ -3401,6 +3433,16 @@ input, select, textarea {
 
 					ul.major-icons li .icon:before {
 						font-size: 42px;
+					}
+
+					.skills.container ul.major-icons li .icon.major:before {
+						font-size: 46px;
+					}
+
+					.skills-image {
+						width: 76px;
+						padding-left: 0.3em;
+						padding-bottom: 0.3em;
 					}
 
 		/* Icon */
