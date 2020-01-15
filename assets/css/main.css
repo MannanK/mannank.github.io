@@ -74,6 +74,10 @@ input, select, textarea {
 
 /* Basic */
 
+	.devicon-express-original-wordmark {
+		color: white !important;
+	}
+
 	.skills-header {
 		margin-left: auto !important;
 		margin-right: auto !important;
