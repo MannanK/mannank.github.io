@@ -98,6 +98,28 @@ input, select, textarea {
 		padding-bottom: 0.5em;
 	}
 
+	.experience-container {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+	}
+
+	.experience-container-row {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: .5em;
+	}
+
+	.experience-container-row.border {
+		border-bottom: 1px solid #fff;
+		margin-bottom: 1.3em;
+	}
+
+	.experience-container-row h3, .experience-container-row h5 {
+		margin-bottom: .3em;
+		color: #fff !important;
+	}
+
 	html {
 		box-sizing: border-box;
 	}
@@ -189,7 +211,7 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
 		line-height: 1.5em;
 	}
 
@@ -2743,7 +2765,7 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.5);
-		color: #555 !important;
+		color: #fff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.9em;
